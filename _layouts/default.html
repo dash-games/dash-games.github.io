@@ -38,19 +38,19 @@
     </section>
     <section class="main-content">
       {{ content }}
-	  <div class="footer" align="center">
-		<div class="contact">
-		  <img src="/dashsite/assets/images/if_github2_252065.png" alt="Github">
-		  <img src="/dashsite/assets/images/if_kickstarter_317736.png" alt="Kickstarter">
-		  <img src="/dashsite/assets/images/if_patreon_2363400.png" alt="Patreon">
+      <div class="footer" align="center">
+	<div class="contact">
+	  <img src="/dashsite/assets/images/if_github2_252065.png" alt="Github">
+	  <img src="/dashsite/assets/images/if_kickstarter_317736.png" alt="Kickstarter">
+	  <img src="/dashsite/assets/images/if_patreon_2363400.png" alt="Patreon">
         </div>
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is a project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">Hosted by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-	  </div>
+	<footer class="site-footer">
+        	{% if site.github.is_project_page %}
+          	<span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is a project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        	{% endif %}
+        	<span class="site-footer-credits">Hosted by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      	</footer>
+      </div>
     </section>
 
     {% if site.google_analytics %}
