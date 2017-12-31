@@ -2,6 +2,105 @@
 ---
 
 @import "{{ site.theme }}";
-.main-content > p:nth-child(3) {
-  color: red;
+
+.page-header {
+  background: url("/dashsite/assets/images/hero.png") top center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #21A9FF !important;        
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  background-color: black;
+}
+.site-footer-owner {
+  color: white;
+}
+.site-footer-credits {
+  color: white;
+}
+a {
+  color: #21A9FF;
+}
+.btn {
+  border: 2px solid #FFFFFF;
+  color: #21A9FF;
+ }
+.btn:hover {
+  border: 2px solid #21A9FF;
+  color: #FFFFFF;
+}
+/*nav*/
+/*	Grey Navigation Background */
+ul.topnav {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+	left: 0;
+  width: 100%;
+}
+ul.topnav li  {
+	float: left;
+}
+ul.topnav li a {
+	display: block;
+	color: #21A9FF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #21A9FF;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+ 	background-color: #21A9FF;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+ul.topnav li a.active {
+	background-color: #4CAF50;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 600px){
+  ul.topnav li.right, 
+	ul.topnav li {float: none;}
+}
+/*Other*/
+body {
+  margin: 0;
+}
+/*Dash Logo*/
+.project-text{
+	max-width: 425px;
+ 	height: auto;
+ 	display: block;
+  margin: auto;
+}
+.project-text > a:nth-child(1) > img:nth-child(1) {
+  max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+/*Outreach Images*/
+.contact img {
+    max-width: 25px;
+    height: auto;
 }
