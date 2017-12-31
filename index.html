@@ -58,13 +58,29 @@
       }
       /*nav*/
       ul {
-      list-style-type: none;
-       margin: 0;
-       padding: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f3f3f3; /*Grey*/
       }
       li {
-        display: inline;
+        float: left;
       }
+      li a {
+        display: block;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #21A9FF;
+        color: #FFFFFF;
+      }
+      /*.active {
+        background-color: #21A9FF;
+      }*/
     </style>
 
     <link rel="icon" href="dashsite/assets/images/Dico.png">
