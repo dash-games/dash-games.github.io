@@ -1,0 +1,7 @@
+---
+---
+
+@import "{{ site.theme }}";
+.main-content > p:nth-child(3) {
+  color: red;
+}
