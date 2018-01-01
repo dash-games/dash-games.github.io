@@ -50,7 +50,9 @@ ul.topnav li.right {
 ul.topnav .icon { /* Hide menu by default */
     display: none;
 }
-@media screen and (max-width: 600px){  /* Screens less than 600px */
+
+/*	Skin Tweaks     	*/
+@media screen and (max-width: 600px){  /* Screens less than 600px RESPONSIVE STUFF */
 	ul.topnav li a { /* Hide all links  */ 
 		display: none;
 	}
@@ -61,7 +63,6 @@ ul.topnav .icon { /* Hide menu by default */
 	ul.topnav.responsive { /* Position Responsive Menu */
 		margin: 0;
 		padding: 0;
-		padding-bottom: 10px;
 		overflow: hidden;
 		border: 1px solid #e7e7e7;
 		background-color: #f3f3f3;
@@ -78,13 +79,18 @@ ul.topnav .icon { /* Hide menu by default */
 	ul.topnav.responsive li a { /* List of Items  */
 		/* Make Vertical Here */
 		display: block;
-    		width: 60px;
+    		width: 100%;
 	}
 	
+	.page-header.responsive { /* Dash Hero Image */
+	background: url("/assets/images/hero.png") top center no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-
-/*	Skin Tweaks     	*/
+	
+}
 .page-header { /* Dash Hero Image */
 	background: url("/assets/images/hero.png") top center no-repeat;
 	background-attachment: fixed;
