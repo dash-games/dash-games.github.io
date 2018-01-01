@@ -1,8 +1,8 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
-/* Header & Navigation */
 .page-header {
   background: url("/assets/images/hero.png") top center no-repeat;
   background-attachment: fixed;
@@ -10,72 +10,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/*Dash Logo*/
-.project-text{
-  max-width: 425px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-.project-text > a:nth-child(1) > img:nth-child(1) {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-
-/*nav*/
-ul.topnav {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-ul.topnav li  {
-  float: left;
-}
-ul.topnav li a {
-  display: block;
-  color: #21A9FF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  /*font-size: 17px;*/
-}
-li a:hover {
-  background-color: #21A9FF;
-  color: #f3f3f3;
-  text-decoration: none;
-}
-ul.topnav li a:hover:not(.active) {
- 	background-color: #21A9FF;
-	color: #f3f3f3;
-	text-decoration: none;
-}
-html body section.nav-bar div.navigation ul.topnav li a.icon {
-	display: none;
-}
-ul.topnav li a.active {
-	background-color: #4CAF50;
-}
-ul.topnav li.right {
-	float: right;
-}
-
-/* END Header & Navigation */
-
-/* Content Area */
-
-body {
-  margin: 0;
-}
-
 h1 {
   color: #21A9FF !important;        
 }
@@ -85,19 +19,6 @@ h2 {
 h3 {
   color: #21A9FF !important;        
 }
-
-.btn {
-  border: 2px solid #FFFFFF;
-  color: #21A9FF;
- }
-.btn:hover {
-  border: 2px solid #21A9FF;
-  color: #FFFFFF;
-}
-
-/* END Content Area */
-
-/* Footer Stuff */
 .footer {
   height: 125px;
   width: 100%;
@@ -114,10 +35,78 @@ h3 {
 a {
   color: #21A9FF;
 }
+.btn {
+  border: 2px solid #FFFFFF;
+  color: #21A9FF;
+ }
+.btn:hover {
+  border: 2px solid #21A9FF;
+  color: #FFFFFF;
+}
+
+/*nav*/
+ul.topnav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+ul.topnav li  {
+	float: left;
+}
+ul.topnav li a {
+	display: block;
+	color: #21A9FF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+li a:hover {
+	background-color: #21A9FF;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+ 	background-color: #21A9FF;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+ul.topnav li a.active {
+	background-color: #4CAF50;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 600px){
+  ul.topnav li.right, 
+	ul.topnav li {float: none;}
+}
+/*Other*/
+body {
+  margin: 0;
+}
+/*Dash Logo*/
+.project-text{
+	max-width: 425px;
+ 	height: auto;
+ 	display: block;
+  margin: auto;
+}
+.project-text > a:nth-child(1) > img:nth-child(1) {
+  max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
 
 /*Outreach Images*/
 .contact img {
     max-width: 25px;
     height: auto;
 }
-/* END Footer Stuff */
