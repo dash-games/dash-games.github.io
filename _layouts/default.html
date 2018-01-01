@@ -39,17 +39,15 @@
     <section class="main-content">
       {{ content }}
       <div class="footer" align="center">
-	<div class="contact">
-	  <img src="assets/images/if_github2_252065.png" alt="Github">
-	  <img src="assets/images/if_kickstarter_317736.png" alt="Kickstarter">
-	  <img src="assets/images/if_patreon_2363400.png" alt="Patreon">
-        </div>
-	<footer class="site-footer">
-        	{% if site.github.is_project_page %}
-          	<span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is a project by <a href="{{ site.github.owner_url }}">TJ</a>.</span>
-        	{% endif %}
-        	<span class="site-footer-credits">Hosting by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      	</footer>
+        <footer class="site-footer">
+          <div class="contact">
+		  <a href="https://github.com/dash-games/dash"><img src="assets/images/if_github2_252065.png" alt="Github"></a>
+		  <a href="https://www.kickstarter.com/projects/2050460584/dash?ref=7f05s1"><img src="assets/images/if_kickstarter_317736.png" alt="Kickstarter"></a>
+		<a href="#"><img src="assets/images/if_patreon_2363400.png" alt="Patreon"></a>
+          </div>
+          <span class="site-footer-owner"><a href="https://github.com/dash-games/dash">Dash</a> is a project by <a href="https://github.com/tjspann">TJ</a>.</span>
+          <span class="site-footer-credits">Hosting by <a href="https://pages.github.com">GitHub Pages</a></span>
+        </footer>
       </div>
     </section>
 
