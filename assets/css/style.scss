@@ -50,80 +50,84 @@ ul.topnav li.right {
 	display: none;
 }
 @media screen and (max-width: 600px){  /* Screens less than 600px */
-  ul.topnav li.right, 
+	ul.topnav li.right, 
 	ul.topnav li {float: none;}
 }
 
 
 /*	Skin Tweaks     	*/
 .page-header { /* Dash Hero Image */
-  background: url("/assets/images/hero.png") top center no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url("/assets/images/hero.png") top center no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .project-text{ /* Dash Logo */
 	max-width: 425px;
  	height: auto;
  	display: block;
-  margin: auto;
+	margin: auto;
 }
 .project-text > a:nth-child(1) > img:nth-child(1) {
-  max-width: 100%;
+	max-width: 100%;
 	height: auto;
 	display: block;
 	margin: auto;
 }
 
 body {
-  margin: 0;
+	margin: 0;
 }
 
 a { /* All links*/
-  color: #21A9FF;
+	color: #21A9FF;
 }
 
 .btn { /* All buttons */
-  border: 2px solid #FFFFFF;
-  color: #21A9FF;
+	border: 2px solid #FFFFFF;
+	color: #21A9FF;
  }
 .btn:hover { /* All buttons hover */
-  border: 2px solid #21A9FF;
-  color: #FFFFFF;
+	border: 2px solid #21A9FF;
+	color: #FFFFFF;
 }
 
 /* Markdown Tweaks */
 h1 {
-  color: #21A9FF !important;        
+	color: #21A9FF !important;        
 }
 h2 {
-  color: #21A9FF !important;        
+	color: #21A9FF !important;        
 }
 h3 {
-  color: #21A9FF !important;        
+	color: #21A9FF !important;        
 }
 
 /*	Footer Tweaks      	*/
 .footer { /* Footer Backgound and positioning */
-  height: 125px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  background-color: black;
+	height: 125px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background-color: black;
 }
 
 .contact img { /* Outreach Images */
-    max-width: 25px;
-    height: auto;
+	max-width: 25px;
+	height: auto;
 }
 .contact > a:nth-child(3) > img:nth-child(1).site-footer-owner { /* Hide Patreon Icon */
-  color: white;
+	color: white;
+}
+
+.site-footer-owner { /* Owner Line */
+	color: white;
 }
 
 .site-footer-credits { /* Credits Line */
-  color: white;
+	color: white;
 }
 
 
