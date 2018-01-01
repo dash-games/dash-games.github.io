@@ -22,7 +22,7 @@
     </section>
     <section class="nav-bar">
       <div class="navigation">
-          <ul class="topnav">
+          <ul class="topnav" id="dashnav">
 	    <li><a href="javascript:void(0);" class="icon" onclick="toggleOverflow()">&#9776;</a></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -31,7 +31,7 @@
           </ul>
 	<script>
 		function toggleOverflow() {
-    			var x = document.getElementById("myTopnav");
+    			var x = document.getElementById("dashnav");
    		  	if (x.className === "topnav") {
         			x.className += " responsive";
     		  	} 
@@ -49,7 +49,7 @@
           <div class="contact">
 		  <a href="https://github.com/dash-games/dash"><img src="assets/images/if_github2_252065.png" alt="Github"></a>
 		  <a href="https://www.kickstarter.com/projects/2050460584/dash?ref=7f05s1"><img src="assets/images/if_kickstarter_317736.png" alt="Kickstarter"></a>
-		<a href="#"><img src="assets/images/if_patreon_2363400.png" alt="Patreon"></a>
+		  <div class="pat"><a href="#"><img src="assets/images/if_patreon_2363400.png" alt="Patreon"></a></div>
           </div>
           <span class="site-footer-owner"><a href="https://github.com/dash-games/dash">Dash</a> is a project by <a href="https://github.com/tjspann">TJ</a>.</span>
           <span class="site-footer-credits">Hosting by <a href="https://pages.github.com">GitHub Pages</a></span>
