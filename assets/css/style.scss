@@ -84,16 +84,16 @@ ul.topnav .icon { /* Hide menu by default */
     		top: 0;
   	}
 	ul.topnav.responsive li { /* List of Items  */
+		
+	}
+	ul.topnav.responsive li a { /* Links in List */
 		/* Make Vertical Here */
 		display: block;
     		width: auto;
 	}
-	ul.topnav.responsive li a { /* Links in List */
-
-	}
 	.page-header { /* Dash Hero Responsive Mod */
-		padding-top: 50px;
-		max-width: 800px;
+		padding-top: 75px;
+		max-width: 600px;
 	}
 	
 }
