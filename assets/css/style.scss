@@ -50,11 +50,11 @@ ul.topnav .icon { /* Hide menu by default */
     display: none;
 }
 @media screen and (max-width: 600px){  /* Screens less than 600px */
-	.topnav a:not(:first-child) { /* Hide all links except home */ 
+	ul.topnav li a { /* Hide all links  */ 
 		display: none;
 	}
 	ul.topnav .icon { /* Show Overflow */
-    		float: right;
+    		float: left;
     		display: block;
   	}
 }
