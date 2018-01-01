@@ -57,11 +57,10 @@ ul.topnav .icon { /* Hide menu by default */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-width: 1920px;
+	max-width: 100%;
 }
 
 .project-text{ /* Dash Logo */
-	max-width: 85%;
  	height: auto;
  	display: block;
 	margin: auto;
@@ -102,7 +101,11 @@ ul.topnav .icon { /* Hide menu by default */
 	}
 	.page-header { /* Dash Hero Responsive Mod */
 		padding-top: 75px;
-		max-width: 800px;
+		max-width: 125%;
+	}
+	.project-text{ /* Dash Logo */
+ 		max-width: 65%;
+		width: 65%;
 	}
 		
 }
