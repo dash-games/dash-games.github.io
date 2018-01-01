@@ -18,7 +18,6 @@ ul.topnav { /* Nav Bar */
 
 ul.topnav li  { /* List of Items  */
 	float: left;
-	list-style-type: none;
 }
 
 ul.topnav li a {/* Link */
@@ -84,11 +83,13 @@ ul.topnav .icon { /* Hide menu by default */
     		left: 0;
     		top: 0;
   	}
-	ul.topnav.responsive li a { /* List of Items  */
+	ul.topnav.responsive li { /* List of Items  */
 		/* Make Vertical Here */
 		display: block;
-    		width: 200px;
-		
+    		width: auto;
+	}
+	ul.topnav.responsive li a { /* Links in List */
+
 	}
 	.page-header { /* Dash Hero Responsive Mod */
 		padding-top: 50px;
