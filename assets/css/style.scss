@@ -57,6 +57,7 @@ ul.topnav .icon { /* Hide menu by default */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-width: 1920px;
 }
 
 @media screen and (max-width: 600px){  /* Screens less than 600px RESPONSIVE STUFF */
@@ -79,9 +80,10 @@ ul.topnav .icon { /* Hide menu by default */
 		width: 100%;
 	}
   	ul.topnav.responsive a.icon {
-    		position: absolute;
-    		left: 0;
-    		top: 0;
+    		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
   	}
 	ul.topnav.responsive li { /* List of Items  */
 		
