@@ -2,67 +2,25 @@
 ---
 
 @import "{{ site.theme }}";
-
-.page-header {
-  background: url("/assets/images/hero.png") top center no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-h1 {
-  color: #21A9FF !important;        
-}
-h2 {
-  color: #21A9FF !important;        
-}
-h3 {
-  color: #21A9FF !important;        
-}
-.footer {
-  height: 125px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  background-color: black;
-}
-/* Hide Patreon */
-.contact > a:nth-child(3) > img:nth-child(1)
-.site-footer-owner {
-  color: white;
-}
-.site-footer-credits {
-  color: white;
-}
-a {
-  color: #21A9FF;
-}
-.btn {
-  border: 2px solid #FFFFFF;
-  color: #21A9FF;
- }
-.btn:hover {
-  border: 2px solid #21A9FF;
-  color: #FFFFFF;
+/*	Navigation      	*/
+ul.topnav { /* Nav Bar */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
-/*nav*/
-ul.topnav {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-ul.topnav li  {
+ul.topnav li  { /* List of Items  */
 	float: left;
 	list-style-type:none;
 }
-ul.topnav li a {
+
+ul.topnav li a {/* Link */
 	display: block;
 	color: #21A9FF;
 	text-align: center;
@@ -70,35 +28,43 @@ ul.topnav li a {
 	text-decoration: none;
 	font-size: 17px;
 }
-li a:hover {
+ul.topnav li a:hover { /* Link hover */
 	background-color: #21A9FF;
 	color: #f3f3f3;
 	text-decoration: none;
 }
-ul.topnav li a:hover:not(.active) {
+ul.topnav li a.active { /* Active page link */
+	background-color: #4CAF50;
+}
+ul.topnav li a:hover:not(.active) { /* Inactive page link */
  	background-color: #21A9FF;
 	color: #f3f3f3;
 	text-decoration: none;
 }
-ul.topnav li a.active {
-	background-color: #4CAF50;
-}
+/* Overflow Related? */
 ul.topnav li.right {
 	float: right;
 }
-.icon {
+/* Responsive Overflow Menu */
+.icon { /* Overflow Icon */
 	display: none;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){  /* Screens less than 600px */
   ul.topnav li.right, 
 	ul.topnav li {float: none;}
 }
-/*Other*/
-body {
-  margin: 0;
+
+
+/*	Skin Tweaks     	*/
+.page-header { /* Dash Hero Image */
+  background: url("/assets/images/hero.png") top center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/*Dash Logo*/
-.project-text{
+
+.project-text{ /* Dash Logo */
 	max-width: 425px;
  	height: auto;
  	display: block;
@@ -111,8 +77,55 @@ body {
 	margin: auto;
 }
 
-/*Outreach Images*/
-.contact img {
+body {
+  margin: 0;
+}
+
+a { /* All links*/
+  color: #21A9FF;
+}
+
+.btn { /* All buttons */
+  border: 2px solid #FFFFFF;
+  color: #21A9FF;
+ }
+.btn:hover { /* All buttons hover */
+  border: 2px solid #21A9FF;
+  color: #FFFFFF;
+}
+
+/* Markdown Tweaks */
+h1 {
+  color: #21A9FF !important;        
+}
+h2 {
+  color: #21A9FF !important;        
+}
+h3 {
+  color: #21A9FF !important;        
+}
+
+/*	Footer Tweaks      	*/
+.footer { /* Footer Backgound and positioning */
+  height: 125px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: black;
+}
+
+.contact img { /* Outreach Images */
     max-width: 25px;
     height: auto;
 }
+.contact > a:nth-child(3) > img:nth-child(1).site-footer-owner { /* Hide Patreon Icon */
+  color: white;
+}
+
+.site-footer-credits { /* Credits Line */
+  color: white;
+}
+
+
+
+
