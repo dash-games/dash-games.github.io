@@ -1,8 +1,3 @@
----
-title: This is my title
-layout: post
----
-
 PC Gaming. It's the pinnacle of gaming; consoles these days are just middle of the road gaming rigs.  
 
 So why is there no unifying interface for all the app stores and emulators in use? Better yet, why is that interface not controller friendly?
