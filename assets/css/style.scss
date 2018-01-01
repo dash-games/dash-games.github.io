@@ -60,6 +60,13 @@ ul.topnav .icon { /* Hide menu by default */
 	max-width: 1920px;
 }
 
+.project-text{ /* Dash Logo */
+	max-width: 425px;
+ 	height: auto;
+ 	display: block;
+	margin: auto;
+}
+
 @media screen and (max-width: 600px){  /* Screens less than 800px RESPONSIVE STUFF */
 	ul.topnav li a { /* Hide all links  */ 
 		display: none;
@@ -77,7 +84,8 @@ ul.topnav .icon { /* Hide menu by default */
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: auto;
+		width: 100%;
+		height: auto;
 	}
   	ul.topnav.responsive a.icon {
     		/*position: absolute;*/
@@ -85,7 +93,7 @@ ul.topnav .icon { /* Hide menu by default */
   	}
 	ul.topnav.responsive li { /* List of Items  */
 		display: block;
-    		width: auto;
+    		width: 100%;
 	}
 	ul.topnav.responsive li a { /* Links in List */
 		/* Make Vertical Here */
@@ -97,14 +105,12 @@ ul.topnav .icon { /* Hide menu by default */
 		max-width: 800px;
 	}
 	
+	.project-text{ /* Dash Logo */
+		max-width: 85%;
+	}
+	
 }
 
-.project-text{ /* Dash Logo */
-	max-width: 425px;
- 	height: auto;
- 	display: block;
-	margin: auto;
-}
 .project-text > a:nth-child(1) > img:nth-child(1) {
 	max-width: 100%;
 	height: auto;
