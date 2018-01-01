@@ -1,5 +1,3 @@
-# Roadmap
-
 An overview of upcoming work on over the next few months.
 
 As a caveat - this is a living doc, and will evolve as priorities grow and shift. The Dash project will always be adapting to new use-cases and evolutions in the platform - this roadmap is more of a working guide of what's being worked on than a strict timeline.
