@@ -60,7 +60,7 @@ ul.topnav .icon { /* Hide menu by default */
 	max-width: 1920px;
 }
 
-@media screen and (max-width: 800px){  /* Screens less than 600px RESPONSIVE STUFF */
+@media screen and (max-width: 600px){  /* Screens less than 800px RESPONSIVE STUFF */
 	ul.topnav li a { /* Hide all links  */ 
 		display: none;
 	}
@@ -77,14 +77,11 @@ ul.topnav .icon { /* Hide menu by default */
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: auto;
 	}
   	ul.topnav.responsive a.icon {
     		/*position: absolute;*/
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 10%;
+		width: 5%;
   	}
 	ul.topnav.responsive li { /* List of Items  */
 		display: block;
