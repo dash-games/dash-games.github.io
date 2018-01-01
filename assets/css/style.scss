@@ -87,11 +87,9 @@ ul.topnav .icon { /* Hide menu by default */
 	ul.topnav.responsive li a { /* List of Items  */
 		/* Make Vertical Here */
 		display: block;
-    		width: 100%;
-		height: auto;
+    		width: 200px;
+		
 	}
-	/* Show menu here */
-
 	.page-header { /* Dash Hero Responsive Mod */
 		padding-top: 50px;
 		max-width: 800px;
