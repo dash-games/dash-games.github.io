@@ -103,11 +103,10 @@ ul.topnav .icon { /* Hide menu by default */
 		padding-top: 75px;
 		max-width: 125%;
 	}
-	.project-text{ /* Dash Logo */
+	.project-text > img:nth-child(1){ /* Dash Logo */
  		max-width: 65%;
 		width: 65%;
 	}
-		
 }
 
 .project-text > a:nth-child(1) > img:nth-child(1) {
