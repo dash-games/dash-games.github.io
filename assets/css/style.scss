@@ -66,7 +66,7 @@ ul.topnav .icon { /* Hide menu by default */
 	margin: auto;
 }
 
-@media screen and (max-width: 600px){  /* Screens less than 800px RESPONSIVE STUFF */
+@media screen and (max-width: 600px){  /* Screens less than 600px RESPONSIVE STUFF */
 	ul.topnav li a { /* Hide all links  */ 
 		display: none;
 	}
@@ -88,7 +88,7 @@ ul.topnav .icon { /* Hide menu by default */
 	}
   	ul.topnav.responsive a.icon {
     		/*position: absolute;*/
-		width: 5%;
+		
   	}
 	ul.topnav.responsive li { /* List of Items  */
 		display: block;
@@ -101,7 +101,7 @@ ul.topnav .icon { /* Hide menu by default */
 	}
 	.page-header { /* Dash Hero Responsive Mod */
 		padding-top: 75px;
-		max-width: 125%;
+		width: auto;
 	}
 	.project-text > img:nth-child(1){ /* Dash Logo */
  		max-width: 65%;
