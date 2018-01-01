@@ -1,9 +1,9 @@
 {% include_relative _posts/intro.md %}
 
-[About](#about)
+# About
 
 {% include_relative _posts/about.md %}
 
-[Roadmap](#roadmap)
+# Roadmap
 
 {% include_relative _posts/roadmap.md %}
