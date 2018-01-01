@@ -50,8 +50,13 @@ ul.topnav .icon { /* Hide menu by default */
     display: none;
 }
 @media screen and (max-width: 600px){  /* Screens less than 600px */
-	ul.topnav li.right, 
-	ul.topnav li {float: none;}
+	.topnav a:not(:first-child) { /* Hide all links except home */ 
+		display: none;
+	}
+	ul.topnav .icon { /* Show Overflow */
+    		float: right;
+    		display: block;
+  	}
 }
 
 
@@ -123,7 +128,7 @@ h3 {
 	max-width: 25px;
 	height: auto;
 }
-.contact > a:nth-child(3) > img:nth-child(1).site-footer-owner { /* Hide Patreon Icon */
+.contact > a:nth-child(3) > img:nth-child(1) { /* Hide Patreon Icon */
 	color: white;
 }
 
