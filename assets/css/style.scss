@@ -60,7 +60,7 @@ ul.topnav .icon { /* Hide menu by default */
 	max-width: 1920px;
 }
 
-@media screen and (max-width: 600px){  /* Screens less than 600px RESPONSIVE STUFF */
+@media screen and (max-width: 800px){  /* Screens less than 600px RESPONSIVE STUFF */
 	ul.topnav li a { /* Hide all links  */ 
 		display: none;
 	}
@@ -93,7 +93,7 @@ ul.topnav .icon { /* Hide menu by default */
 	}
 	.page-header { /* Dash Hero Responsive Mod */
 		padding-top: 75px;
-		max-width: 600px;
+		max-width: 800px;
 	}
 	
 }
