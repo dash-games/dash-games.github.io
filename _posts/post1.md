@@ -5,4 +5,3 @@ layout: post
 
 Here is my page.
 
-{% include_relative test_header.md %}
