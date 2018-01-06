@@ -1,4 +1,4 @@
-﻿﻿﻿﻿An overview of upcoming work on over the next few months.
+﻿﻿﻿An overview of upcoming work on over the next few months.
 
 As a caveat - this is a living doc, and will evolve as priorities grow and shift. The Dash project will always be adapting to new use-cases and evolutions in the platform - this roadmap is more of a working guide of what's being worked on than a strict timeline.
 
@@ -13,10 +13,6 @@ I've recently launched the website for Dash. Going forward I'll work on the them
 *Goals*:
 
 - Finalize theme as needed
-  -  Navigation bar is responsive
-  -  Hero image is responsive
-  -  Logo image is responsive
-  -  [Credits](docs/credit.md) page up
 - Start getting information on the project uploaded.
 
 
