@@ -5,7 +5,6 @@ plugins:
    - jekyll-mentions
    - jemoji
    - jekyll-redirect-from
-   - jekyll-sitemap
    - jekyll-seo-tag
    - jekyll-include-cache
    - jekyll-relative-links
