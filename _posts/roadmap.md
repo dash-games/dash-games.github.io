@@ -1,4 +1,4 @@
-﻿﻿﻿An overview of upcoming work on over the next few months.
+﻿﻿An overview of upcoming work on over the next few months.
 
 As a caveat - this is a living doc, and will evolve as priorities grow and shift. The Dash project will always be adapting to new use-cases and evolutions in the platform - this roadmap is more of a working guide of what's being worked on than a strict timeline.
 
@@ -19,6 +19,8 @@ I've recently launched the website for Dash. Going forward I'll work on the them
 ### Dash
 
 Dash is currently on [Kickstarter](https://www.kickstarter.com/projects/2050460584/dash?ref=7f05s1)! My greatest thanks to anyone helping to fund this project. I'll be working on the controller abstraction layer next, so look for beta builds coming soon.
+
+Working on the [Credits]docs/credits.md page
 
 ### What's next?
 
