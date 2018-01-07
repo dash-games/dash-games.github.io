@@ -14,7 +14,7 @@ I've recently launched the website for Dash. Going forward I'll work on the them
 
 - Finalize theme as needed
 - Start getting information on the project uploaded.
-- Working on the [Credits](docs/credits) page
+- Working on the [Credits](credits) page
 
 
 ### Dash
