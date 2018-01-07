@@ -4,6 +4,17 @@
 Dash is built with open-source software where possible, being a one man team and all. I prefer works done in C# personally, and I try to integrate available (and free) code where possible to cut down on development time.  I will credit anyone who's work makes Dash possible.
 
 ##  Dash
+### Project Resources
+`License: MIT`
+
+[SharpDX XInput](https://github.com/sharpdx/SharpDX) by [SharpDX](https://github.com/sharpdx)
+
+[WPFToastNotification](https://github.com/muhammad-magdy/WPFToastNotification) by [muhammad-magdy](https://github.com/muhammad-magdy)
+
+`License: Microsoft Public License`
+
+[Windows Input Simulator](https://www.nuget.org/packages/InputSimulator/) by [michaelnoonan ](https://www.nuget.org/profiles/michaelnoonan)
+
 ### Input Icons
 `License: Creative Comons 0 - Public Domain`
 
