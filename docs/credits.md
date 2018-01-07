@@ -1,17 +1,17 @@
 # Credits
 
 ### Disclaimer
-Dash is built with open-source software where possible, being a one man team and all. I prefer works done in C# personally, and I try to integrate available (and free) code where possible to cut down on development time.  I try to credit anyone whose work makes Dash possible.
+Dash is built with open-source software where possible, being a one man team and all. I prefer works done in C# personally, and I try to integrate available (and free) code where possible to cut down on development time.  I will credit anyone who's work makes Dash possible.
 
-#  Dash
-## Input Icons
+##  Dash
+### Input Icons
 `License: Creative Comons 0 - Public Domain`
 
 [FREE Keyboard and controllers prompts pack](https://opengameart.org/content/free-keyboard-and-controllers-prompts-pack) by [xelu](https://opengameart.org/users/xelu)
 
-# Website
+## Website
 
-## Footer Icons
+### Footer Icons
 
 ` License: Creative Commons 3.0 `
 
