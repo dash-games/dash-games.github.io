@@ -20,7 +20,7 @@ I've recently launched the website for Dash. Going forward I'll work on the them
 
 Dash is currently on [Kickstarter](https://www.kickstarter.com/projects/2050460584/dash?ref=7f05s1)! My greatest thanks to anyone helping to fund this project. I'll be working on the controller abstraction layer next, so look for beta builds coming soon.
 
-Working on the [Credits](credits.md) page
+Working on the [Credits](docs/credits.md) page
 
 ### What's next?
 
